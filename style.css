@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Mochiy Pop One;
+
+}
+
+
+
+img {
+    height: 200px;
+}
+
+header{
+    background-color: #e7ecef;
+    padding-left: 10em;
+    padding-right: 15em;
+    display: flex;
+    justify-content: space-between;
+}
+
+    .logo{
+        
+        display: flex;
+        align-items: center;
+    }
+        .logo p{
+            margin-left: .2em;
+            font-family:Mochiy Pop One;
+            font-size: 50px;
+        }
+
+        .links{
+            display: flex;
+            align-items: center;
+             text-decoration: none;
+        }
+            .links ul{
+                display: flex;
+                list-style-type: none;
+                gap: 1rem;
+
+            }
+            .links a{
+                font-size: 20px;
+                text-decoration: none;
+                color: black;
+            }
+
+.content{
+    background-color: #6096ba;
+    padding-left: 10em;
+    padding-right: 10em;
+}
+
+    .main{
+        display: flex;
+    }
+        .customer-need{
+            margin-top: 5em;
+            margin-left: 5em;
+            width: 50%;
+
+        }
+            .customer{
+                width: 300px;
+                float: left;
+                shape-outside: url(pics/avatar-thinking-4-svgrepo-com.svg);
+                margin-top: 30px ;
+                margin-right: 50px;
+            }
+                .customer-need p{
+                    padding-left: 80px;
+                }
